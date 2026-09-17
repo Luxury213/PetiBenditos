@@ -1,5 +1,13 @@
 # PetiBenditos
 
+> **Estado documental:** borrador de trabajo. La versión publicable solo puede usar evidencia clasificada como pública y validada en el [registro de evidencias](docs/registro-de-evidencias.md).
+
+## Manejo de información
+
+- Los insumos de entrevistas y de arquitectura de cliente son **restringidos**. Permanecen locales, excluidos de Git, y no se listan ni se enlazan desde la documentación pública.
+- La anonimización de nombres no basta para publicar una arquitectura: combinaciones de tecnologías, flujos y comportamientos también pueden reidentificar una cuenta.
+- Antes de compartir el PETI, validar cada afirmación AS-IS mediante su ID de evidencia, alcance, propietario y fecha de verificación.
+
 Repositorio para la estructuración y documentación del **Plan Estratégico de Tecnologías de la Información (PETI)** enfocado en **Perficient**.
 
 ## Estructura del Proyecto
@@ -31,6 +39,8 @@ PetiBenditos/
 ```
 
 ## Documentos Clave
+
+- **Registro de evidencias**: [registro-de-evidencias.md](docs/registro-de-evidencias.md) — fuentes, nivel de confidencialidad, alcance y reglas de uso.
 - **★ PETI Definitivo 2026-2028**: [perficient_peti_plan_estrategico_2026_2028.md](docs/perficient_peti_plan_estrategico_2026_2028.md) — Plan completo con 18 secciones: diagnóstico AS-IS, arquitectura TO-BE, 13 brechas, 28 proyectos en 4 fases, KPIs, riesgos, comunicaciones y gobernanza.
 - **Propuesta de Arquitectura y Cronograma**: [perficient_peti_propuesta_arquitectura_cronograma.md](docs/perficient_peti_propuesta_arquitectura_cronograma.md).
 - **Marcos de Gobernanza**: [perficient_peti_marcos_gobernanza.md](docs/perficient_peti_marcos_gobernanza.md) (COBIT 2019, TOGAF ADM, ISO 42001, ITIL 4).

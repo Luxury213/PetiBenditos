@@ -1,0 +1,10 @@
+# Insumos restringidos: se mantienen locales y nunca se versionan en este repositorio.
+/docs/informacion_jd-v2.md
+/docs/arquitectura-sistema-anonimizado.md
+/docs/evidencia-privada/
+/docs/privado/
+
+# Artefactos locales de revisión y exportaciones temporales.
+*.tmp
+*.bak
+~$*

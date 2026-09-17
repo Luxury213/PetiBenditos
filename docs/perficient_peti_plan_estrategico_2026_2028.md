@@ -1,6 +1,8 @@
 # PLAN ESTRATÉGICO DE TECNOLOGÍAS DE LA INFORMACIÓN (PETI)
 ## Perficient Inc. — Operación Nearshore Latinoamérica
-### Período 2026-2028 | Versión 1.0
+### Período 2026-2028 | Versión 1.1 (borrador sujeto a validación)
+
+> **Clasificación:** Interno — versión de trabajo para el PETI. Toda publicación externa exige aplicar el [registro de evidencias](registro-de-evidencias.md), retirar evidencia restringida y validar las afirmaciones AS-IS.
 
 ---
 
@@ -35,7 +37,7 @@ El presente PETI se estructura siguiendo las mejores prácticas del **Marco de R
 
 Este plan surge de la convergencia de tres factores críticos:
 1. La evolución de la marca corporativa de Perficient hacia un modelo **AI-Native**, que exige una gobernanza formal del ciclo de vida de la inteligencia artificial.
-2. La necesidad de renovar la certificación **ISO 27001:2022** (vigente hasta noviembre de 2026) y mantener la acreditación **SOC 2 Type II**.
+2. La necesidad de validar la condición y fecha de renovación de **ISO 27001:2022**, así como la vigencia y alcance de cualquier informe **SOC 2 Type II** aplicable.
 3. El imperativo de estandarizar las prácticas de ingeniería de software, observabilidad y gestión del ciclo de vida de aplicaciones (ALM) en la operación Nearshore de Latinoamérica.
 
 ---
@@ -55,6 +57,8 @@ El presente PETI aborda las fases propuestas en la guía para la construcción d
 **Ámbito temporal:** 24 meses distribuidos en cuatro fases semestrales (Octubre 2026 – Septiembre 2028).
 
 **Ámbito funcional:** Cubre la totalidad de las células operativas especializadas (Ciberseguridad, Analítica de Datos, Mantenimiento Correctivo, Mantenimiento Evolutivo) y todas las verticales de industria atendidas (BFSI, Salud, Retail, Automotriz, TMT).
+
+**Alcance de la evidencia:** la evidencia pública soporta el contexto corporativo; la evidencia restringida disponible describe una cuenta de cliente y un equipo de entrega anonimizados. Por tanto, las prácticas observadas en esa cuenta no se presentan como política corporativa ni como cobertura comprobada de toda LATAM. Las extrapolaciones regionales requieren validación independiente y un propietario de evidencia, conforme al [registro de evidencias](registro-de-evidencias.md).
 
 ---
 
@@ -100,14 +104,14 @@ El presente PETI aborda las fases propuestas en la guía para la construcción d
 
 | Marco / Norma | Aplicación al PETI de Perficient |
 |:---|:---|
-| **ISO 27001:2022** | Certificación del SGSI de Perficient (Certificado ISMS-PE-101123, auditor A-Lign, vigente hasta 10/Nov/2026). Base del esquema de ciberseguridad por capas (Defense-in-Depth). |
+| **ISO 27001:2022** | Certificación del SGSI de Perficient (certificado ISMS-PE-101123; auditor A-Lign, PUB-002). La fecha de vencimiento se valida contra el certificado oficial antes de convertirla en un hito del PETI. |
 | **SOC 2 Type II** (AICPA Trust Services Criteria) | Informe de attestation para verificación del entorno de control por clientes regulados (banca, seguros, salud). Complementa la ISO 27001. |
 | **ISO/IEC 42001:2023** | Estándar internacional para el establecimiento de un AI Management System (AIMS). Gobernanza responsable de modelos de IA (Bedrock, Amazon Q, Claude, Kiro). |
 | **NIST AI RMF 1.0** | Marco de gestión de riesgos de IA del National Institute of Standards and Technology: funciones Gobernar, Mapear, Medir, Gestionar. |
 | **COBIT 2019** | Marco de gobernanza y gestión de TI empresarial. Alineación estratégica TI ↔ negocio, evaluación de riesgos, gestión de valor. |
 | **TOGAF ADM** | Metodología de Arquitectura Empresarial. Estructura el PETI en dominios de Negocio, Datos, Aplicaciones, Tecnología y Seguridad. |
 | **ITIL 4** | Marco de gestión de servicios de TI. Gestión de incidentes, observabilidad, mejora continua y operaciones DevSecOps. |
-| **Sarbanes-Oxley Act (SOX)** §302/§906 | Cumplimiento regulatorio SEC. Certificaciones firmadas por CEO/CFO en los filings anuales Form 10-K (CIK: 0001085869). |
+| **Sarbanes-Oxley Act (SOX)** §302/§906 | Referencia histórica del período en que Perficient cotizaba. Las obligaciones aplicables al período 2026-2028 deben ser validadas por Legal/Finanzas, pues Perficient pasó a ser una compañía privada el 2-oct-2024 (PUB-001). |
 | **Guía MGGTI.GE.ES.03 v3.0** (MinTIC Colombia) | Guía de referencia para la estructura y contenido del PETI, con fases: comprender, analizar, construir y presentar. |
 | **MRAE v3.0** (MinTIC Colombia) | Marco de Referencia de Arquitectura Empresarial. Dominios: Estrategia TI, Gobierno TI, Información, Sistemas de Información, Gestión de Servicios TI, Uso y Apropiación. |
 
@@ -119,11 +123,11 @@ El presente PETI aborda las fases propuestas en la guía para la construcción d
 
 | Motivador | Fuente | Aplicación al PETI |
 |:---|:---|:---|
-| **Evolución AI-Native de la marca** | Comunicado corporativo Perficient 2025 | Transición de experimentación aislada de IA hacia ejecución a escala de producción en la arquitectura empresarial. Pilares: Agentic Front Office, GenAI & RAG, Modernización de Desarrollo. |
+| **Evolución AI-Native de la marca** | Comunicado corporativo Perficient, 26-mar-2026 (PUB-003) | Posicionamiento público hacia servicios y consultoría AI-native. La adopción operativa por región o cliente debe validarse separadamente. |
 | **Microsoft AI Inner Circle 2025-2026** | Reconocimiento Microsoft | Posicionamiento en el 1% superior de socios globales de Microsoft. Obliga a mantener estándares de excelencia en IA y nube. |
 | **Databricks Brickbuilder (4 especializaciones)** | Alianza estratégica | Capacidad validada para arquitecturas de datos e IA a escala de producción. Requiere integración formal en el PETI. |
 | **IDC MarketScape – Major Player** | 3 evaluaciones IDC | Reconocimiento como actor principal en estrategia, diseño y construcción de experiencias digitales. Demanda sostenimiento de capacidades. |
-| **Vencimiento ISO 27001:2022** | Certificado ISMS-PE-101123 (A-Lign) | Vigente hasta 10/Nov/2026. Requiere preparación inmediata de auditoría de renovación. |
+| **Vencimiento ISO 27001:2022** | Declaración pública de seguridad (PUB-002) | La fuente muestra `10/11/2026`; confirmar el formato y el certificado antes de fijar la fecha de renovación y su ruta crítica. |
 | **Brecha de inversión IA vs. madurez** | Thought Leadership Perficient | Investigación que revela desalineación entre presupuestos de IA y la madurez operativa real de las empresas. |
 
 ### 6.2 Rupturas Estratégicas
@@ -148,7 +152,7 @@ El presente PETI aborda las fases propuestas en la guía para la construcción d
 | **EIN** | 74-2853258 |
 | **Estado de Incorporación** | Delaware, EE. UU. |
 | **Sede Principal** | 555 Maryville University Drive, Suite 600, Saint Louis, MO 63141 |
-| **Ticker** | PRFT (NASDAQ) |
+| **Condición societaria 2026-2028** | Compañía privada desde el 2-oct-2024; PRFT/NASDAQ corresponde a su condición histórica previa a la adquisición (PUB-001). |
 | **Clasificación SIC** | 7371 (Services-Computer Programming Services) |
 
 ### 7.2 Misión Organizacional
@@ -267,6 +271,8 @@ Ser reconocida como la firma de consultoría digital líder en la ejecución de 
 
 ## 9. Situación Actual (AS-IS)
 
+> **Criterio de lectura:** los elementos de este AS-IS son hipótesis de trabajo hasta asociarles un ID de evidencia, propietario, fecha de validación y alcance. Cuando provengan de una cuenta de cliente, se entienden como “observados en la cuenta analizada”, no como un atributo comprobado de toda Perficient o de todas las operaciones LATAM.
+
 ### 9.1 Estrategia de TI
 
 #### 9.1.1 Lienzo Estratégico (Modelo Canvas de TI)
@@ -336,9 +342,9 @@ Ser reconocida como la firma de consultoría digital líder en la ejecución de 
 ### 9.7 Seguridad de la Información
 
 **Estado actual:**
-- ✅ Certificación ISO 27001:2022 vigente (ISMS-PE-101123, A-Lign, hasta 10/Nov/2026).
-- ✅ Acreditación SOC 2 Type II vigente.
-- ✅ Cumplimiento SOX (Secciones 302/906) en filings SEC anuales.
+- ⚠️ Certificación ISO 27001:2022: la declaración pública referencia ISMS-PE-101123 y A-Lign, con vencimiento mostrado como `10/11/2026`; se debe validar el certificado y la fecha inequívoca (PUB-002).
+- ⚠️ Acreditación SOC 2 Type II: validar vigencia, alcance y evidencia autorizada antes de declararla como estado actual.
+- ⚠️ Obligaciones SOX/SEC: validar con Legal/Finanzas para el período 2026-2028 posterior a la privatización (PUB-001).
 - ✅ Estrategia Defense-in-Depth implementada (firewalls, MFA, FDE, VPN, antimalware, IPS).
 - ✅ Auditoría continua con Fluid Security (pentesting + SCA).
 - ✅ Clasificación de vulnerabilidades: inyectadas vs. heredadas.
@@ -453,7 +459,7 @@ Ser reconocida como la firma de consultoría digital líder en la ejecución de 
 | BRE-003 | **Flujo Fluid Security → DevOps manual** | La conversión de hallazgos de seguridad a tickets de Azure DevOps se realiza manualmente. | Sistemas de Información | Crear |
 | BRE-004 | **Heterogeneidad en plantillas ALM** | Cada célula opera con configuraciones distintas en Azure DevOps. | Sistemas de Información | Modificar |
 | BRE-005 | **Adopción desigual de herramientas IA** | No todos los equipos tienen licencias ni capacitación formal en Bedrock/Q/Kiro. | Uso y Apropiación | Modificar |
-| BRE-006 | **ISO 27001 por vencer (Nov 2026)** | Requiere preparación inmediata de auditoría de renovación con A-Lign. | Seguridad de la Información | Mantener |
+| BRE-006 | **Fecha y ruta de renovación ISO 27001 por validar** | La fuente pública debe contrastarse con el certificado y el plan de renovación autorizado por A-Lign. | Seguridad de la Información | Validar |
 | BRE-007 | **Ausencia de IaC formal** | No se documenta infraestructura como código para consistencia entre ambientes. | Infraestructura TI | Crear |
 | BRE-008 | **Policy-as-Code para agentes IA pendiente** | Controles de permisos de ejecución de herramientas por modelos cognitivos no implementados. | Seguridad / Gobierno TI | Crear |
 | BRE-009 | **Capacitación IA no universal** | Currícula de IA adaptada pero no desplegada al 100% del personal. | Uso y Apropiación | Modificar |
@@ -479,11 +485,13 @@ Ser reconocida como la firma de consultoría digital líder en la ejecución de 
 
 ## 13. Portafolio de Iniciativas, Proyectos y Mapa de Ruta
 
+> **Puerta de ejecución:** ningún proyecto pasa a ejecución sin patrocinador nominal, caso de negocio, estimación CAPEX/OPEX, fuente de financiación, dependencias, riesgos, criterio de aceptación y evidencia de la brecha que pretende cerrar. Los responsables mostrados abajo son roles propuestos, no asignaciones aprobadas.
+
 ### Fase 1: Gobernanza, SGSI y Habilitación AI-First (Meses 1-6)
 
 | ID | Proyecto | Objetivo | Entregable | Brechas | Responsable |
 |:---|:---|:---|:---|:---|:---|
-| P1.1 | Renovación ISO 27001:2022 | Preparar y ejecutar auditoría de renovación con A-Lign antes de Nov 2026 | Certificado renovado (3 años) | BRE-006 | CISO |
+| P1.1 | Validación y renovación ISO 27001:2022 | Confirmar fecha, alcance y condición de renovación con A-Lign; ejecutar el plan aprobado antes del vencimiento confirmado | Certificado o plan de remediación aprobado, con evidencia de la fecha | BRE-006 | CISO |
 | P1.2 | Diseño del AIMS (ISO 42001) | Implementar AI Management System formal | Manual de IA Responsable v1.0 | BRE-001 | CISO + CTO |
 | P1.3 | Inventario Trazable de Sistemas IA | Crear registro de modelos, proveedores, data lineage | Registro actualizado + proceso de mantenimiento | BRE-002 | Arquitectos |
 | P1.4 | Policy-as-Code para Agentes IA | Implementar framework de permisos y barreras de seguridad para LLMs | Framework operativo + documentación | BRE-008 | DevSecOps |
@@ -554,6 +562,8 @@ FASE 4                   │                   │                    │ ██
 
 ## 14. Indicadores de Gestión (KPIs y KGIs)
 
+> **Estado de las metas:** las metas siguientes son propuestas. Antes de aprobar el tablero, cada KPI debe tener fórmula, línea base con fecha, fuente de datos, propietario nominal, segmento de alcance, umbral de alerta y evidencia de la medición. Sin estos campos no se utilizará para evaluar desempeño.
+
 ### 14.1 Cuadro de Mando Integral (Balanced Scorecard)
 
 | Perspectiva | ID | Indicador | Meta | Frecuencia |
@@ -577,6 +587,8 @@ El seguimiento al cumplimiento de los hitos y proyectos del PETI se realizará t
 
 ## 15. Plan de Gestión de Riesgos de TI
 
+> **Estado de la matriz:** la valoración es preliminar. Para cada riesgo se debe registrar propietario, tratamiento, fecha objetivo, evidencia, indicador de control y riesgo residual aceptado por el órgano competente.
+
 | ID | Riesgo | Probabilidad | Impacto | Nivel | Control Primario | Control Secundario |
 |:---|:---|:---|:---|:---|:---|:---|
 | R01 | Fuga de código/datos vía herramientas IA | Media | Crítico | 🔴 | Repositorios IA privados (Bedrock); filtros DLP | Policy-as-Code; auditoría ISO 42001 |
@@ -585,7 +597,7 @@ El seguimiento al cumplimiento de los hitos y proyectos del PETI se realizará t
 | R04 | Prompt injection / sesgos en modelos IA | Media | Alto | 🟡 | NIST AI RMF; testing RAGAS | Red teaming; guardrails Bedrock |
 | R05 | Desalineación DEV/QA/PROD | Media | Alto | 🟡 | IaC (Terraform/CFN); Grafana multiambiente | Revisión de paridad en Sprint Review |
 | R06 | Rotación de personal y silos de conocimiento | Alta | Medio | 🟡 | Rotación periódica entre células; Wiki DevOps | Knowledge transfer bimensual |
-| R07 | Incumplimiento SOX / SEC filings | Baja | Crítico | 🟡 | Certificaciones EX-31/EX-32 por CEO/CFO | Auditoría interna trimestral SOX |
+| R07 | Obligaciones regulatorias y de reporte no validadas tras la privatización | Por validar | Alto | Por valorar | Concepto de Legal/Finanzas sobre obligaciones 2026-2028 | Registro de obligaciones, responsable y revisión periódica |
 | R08 | Sobrecosto en cloud (AWS/Azure/GCP) | Media | Medio | 🟢 | FinOps dashboard + alertas | Right-sizing trimestral |
 | R09 | Brecha de capacitación en IA | Media | Medio | 🟢 | Plan de certificaciones por rol | Mentoría Seniors→Juniors; labs CoE |
 | R10 | Interoperabilidad con consultoras coexistentes | Baja | Medio | 🟢 | Herramientas compartidas (Teams) | SLAs de interoperabilidad |
@@ -641,7 +653,7 @@ El seguimiento al cumplimiento de los hitos y proyectos del PETI se realizará t
 | **ISO 42001 / NIST AI RMF** | Gobernanza del ciclo de vida de IA: Gobernar, Mapear, Medir, Gestionar | Seguridad / Gobierno TI |
 | **ITIL 4** | Gestión de servicios, incidentes, observabilidad y mejora continua | Servicios TI |
 | **ISO 27001:2022** | SGSI: confidencialidad, integridad y disponibilidad de la información | Seguridad de la Información |
-| **SOC 2 / SOX** | Attestation de confianza para clientes regulados + cumplimiento SEC | Seguridad / Gobierno TI |
+| **SOC 2 / cumplimiento legal** | Attestation para clientes regulados y validación de obligaciones aplicables a una compañía privada | Seguridad / Gobierno TI |
 
 ### 17.3 Mapeo Operativo vs. Estándar Normativo
 
@@ -662,6 +674,7 @@ El seguimiento al cumplimiento de los hitos y proyectos del PETI se realizará t
 | Versión | Fecha | Numerales | Descripción de la Modificación |
 |:---|:---|:---|:---|
 | 1.0 | Septiembre 2026 | Todos | Versión inicial del PETI 2026-2028 de Perficient. |
+| 1.1 | Septiembre 2026 | 3, 5-7, 9, 13-15, 18 | Se adiciona clasificación de información, registro de evidencias, delimitación del alcance, correcciones de condición societaria y puertas de validación para iniciativas, indicadores y riesgos. |
 
 ---
 
