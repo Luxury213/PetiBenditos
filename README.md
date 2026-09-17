@@ -7,6 +7,8 @@ Repositorio para la estructuración y documentación del **Plan Estratégico de 
 ```text
 PetiBenditos/
 ├── docs/                       # Documentación e insumos de investigación
+│   ├── Plan-Estratégico-de-Tecnologías-de-la-Información_2025-V02.pdf
+│   ├── articles-274095_recurso_1.pdf
 │   ├── perficient_about.md
 │   ├── perficient_ai_first_solutions.md
 │   ├── perficient_ainative_alianzas_estrategicas.md
@@ -22,12 +24,20 @@ PetiBenditos/
 │   ├── perficient_latin_america.md
 │   ├── perficient_partners.md
 │   ├── perficient_peti_marcos_gobernanza.md
+│   ├── perficient_peti_plan_estrategico_2026_2028.md    ★ PETI DEFINITIVO
+│   ├── perficient_peti_propuesta_arquitectura_cronograma.md
 │   └── perficient_sec_10k_reporte_financiero.md
 └── README.md
 ```
 
 ## Documentos Clave
+- **★ PETI Definitivo 2026-2028**: [perficient_peti_plan_estrategico_2026_2028.md](docs/perficient_peti_plan_estrategico_2026_2028.md) — Plan completo con 18 secciones: diagnóstico AS-IS, arquitectura TO-BE, 13 brechas, 28 proyectos en 4 fases, KPIs, riesgos, comunicaciones y gobernanza.
+- **Propuesta de Arquitectura y Cronograma**: [perficient_peti_propuesta_arquitectura_cronograma.md](docs/perficient_peti_propuesta_arquitectura_cronograma.md).
 - **Marcos de Gobernanza**: [perficient_peti_marcos_gobernanza.md](docs/perficient_peti_marcos_gobernanza.md) (COBIT 2019, TOGAF ADM, ISO 42001, ITIL 4).
 - **Ciberseguridad y Cumplimiento**: [perficient_iso27001_soc2_ciberseguridad.md](docs/perficient_iso27001_soc2_ciberseguridad.md).
 - **Soluciones de IA y Alianzas**: [perficient_ainative_alianzas_estrategicas.md](docs/perficient_ainative_alianzas_estrategicas.md).
 - **Reporte Financiero**: [perficient_sec_10k_reporte_financiero.md](docs/perficient_sec_10k_reporte_financiero.md).
+
+## Referencias del Profesor
+- `Plan-Estratégico-de-Tecnologías-de-la-Información_2025-V02.pdf` — PETI de MinCiencias 2023-2026 (estructura de referencia).
+- `articles-274095_recurso_1.pdf` — PETI del MinTIC Colombia (capacidades institucionales, indicadores).
