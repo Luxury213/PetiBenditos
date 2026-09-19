@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(pdftotext:*)",
+      "Bash(python .claude/skills/trazabilidad-peti/scripts/verificar_trazabilidad.py:*)",
+      "Bash(python .claude/skills/guia-peti/scripts/extraer_referencias.py:*)"
+    ],
+    "deny": [
+      "Bash(git add docs/informacion_jd-v2.md:*)",
+      "Bash(git add docs/arquitectura-sistema-anonimizado.md:*)",
+      "Bash(git add -f:*)",
+      "Bash(git add --force:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
