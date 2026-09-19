@@ -4,14 +4,16 @@ Plan Estratégico de Tecnologías de la Información (PETI) 2026-2028 de **Perfi
 
 > **Estado documental:** borrador de trabajo (v2.1, septiembre de 2026). La versión publicable solo puede usar evidencia clasificada como pública y validada en el [registro de evidencias](docs/registro-de-evidencias.md).
 
-## Entregable
+## Entregables del Primer Parcial
 
 | Documento | Descripción |
 |---|---|
-| [PETI_Perficient_2026-2028_v2.1.docx](docs/PETI_Perficient_2026-2028_v2.1.docx) | **PETI vigente** en Word, con los estilos de la plantilla del MinTIC. Al abrirlo, actualizar el índice (clic derecho > Actualizar campo) |
+| [PETI_Perficient_2026-2028_v2.1.docx](docs/PETI_Perficient_2026-2028_v2.1.docx) | **Entregable 1 (PETI vigente)** en Word, con los estilos de la plantilla del MinTIC. Al abrirlo, actualizar el índice (clic derecho > Actualizar campo) |
 | [perficient_peti_v2_2026_2028.md](docs/perficient_peti_v2_2026_2028.md) | Fuente en Markdown del v2.1: 16 numerales según la plantilla, 18 brechas, 30 proyectos en 4 fases, 16 indicadores con hoja de vida, 11 riesgos |
-| [PETI_Perficient_Colombia_2026-2028_v1.0.docx](docs/PETI_Perficient_Colombia_2026-2028_v1.0.docx) | Versión simplificada enfocada en la operación de Colombia (fuente: [perficient_peti_colombia_2026_2028.md](docs/perficient_peti_colombia_2026_2028.md)): 16 brechas, 25 proyectos, 13 indicadores, Ley 1581 como obligación directa |
-| [perficient_peti_plan_estrategico_2026_2028.md](docs/perficient_peti_plan_estrategico_2026_2028.md) | Versión 1.1 (histórica), estructurada sobre el PETI de MinCiencias antes de incorporar la guía y los anexos del MinTIC |
+| [Informe_Ejecutivo_Lineamientos_IA_USC.docx](docs/Informe_Ejecutivo_Lineamientos_IA_USC.docx) | **Entregable 3 (Informe Ejecutivo IA USC)** en Word formal, basado en la Circular Normativa DGI No. 001 de 2025 |
+| [informe_ejecutivo_lineamientos_ia_usc.md](docs/informe_ejecutivo_lineamientos_ia_usc.md) | Fuente en Markdown del Informe Ejecutivo de Lineamientos de IA para la USC |
+| [PETI_Perficient_Colombia_2026-2028_v1.0.docx](docs/PETI_Perficient_Colombia_2026-2028_v1.0.docx) | Versión alternativa enfocada exclusivamente en Colombia (fuente: [perficient_peti_colombia_2026_2028.md](docs/perficient_peti_colombia_2026_2028.md)) |
+| [perficient_peti_plan_estrategico_2026_2028.md](docs/perficient_peti_plan_estrategico_2026_2028.md) | Versión 1.1 (histórica), estructurada sobre el referente de MinCiencias |
 | [registro-de-evidencias.md](docs/registro-de-evidencias.md) | Fuentes con ID (`PUB-`, `INT-`, `PRV-`), clasificación, alcance y reglas de uso |
 
 Para regenerar el Word después de editar el Markdown:
